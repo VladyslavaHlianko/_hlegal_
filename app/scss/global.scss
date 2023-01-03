@@ -1,0 +1,35 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+.container{
+    padding: 0 30px;
+    @media screen and (min-width:$breakpoint-md){
+        min-width: 648px;
+        margin: 0 auto;
+        padding: 0 60px;
+    }
+    @media screen and (min-width:$breakpoint-lg) {
+        min-width: 904px;
+    }
+    @media screen and (min-width:$breakpoint-xl) {
+        min-width: 1320px;
+    }
+    @media screen and (min-width:$breakpoint-xxl) {
+        max-width: 1600px;
+        padding: 0;
+    }
+}
+.main_title{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.wrapper {
+    background: $gradient_supersoft;
+}
